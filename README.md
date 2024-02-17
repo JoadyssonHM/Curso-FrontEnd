@@ -23,7 +23,9 @@
   - após testado todo seu código
   - git add *
   - git commit -m "mensagem"
-  
+  - git push (enviar alteração)
+  - git pull (puxar / trazer alterações do Git Hub para a sua maquina)
+
     
   ## GitFlow
   Fluxo Git
