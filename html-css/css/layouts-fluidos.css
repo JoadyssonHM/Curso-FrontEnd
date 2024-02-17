@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #862525;
+    overflow: hidden;
+}
+
+h1, h2, p {
+    margin-bottom: 20px;
+}
+div {
+    padding: 20px 0;
+    margin: 0;
+}
+
+.width-100 {
+    width: 100%;
+    background-color: aqua;
+    box-sizing: border-box;
+    padding: 20px 0;
+    height: 400px;
+}
+
+nav {
+    background-color: aquamarine;
+    width: 20%;
+    float: left;
+    display: table;
+    height: 100%;
+}
+
+article {
+    background-color: rgb(17, 71, 71);
+    width: 80%;
+    float: left;
+}
+.fixed-width {
+    background-color: lightcoral;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*Mobile first*/
+
+/*Tablet*/
+
+@media (min-width:800px) {
+
+    body {
+      background-color: cornflowerblue;
+    }
+  
+  }
+  
+  @media (max-width: 768px) {
+  
+    nav {width: 30%;}
+  
+    article {
+      width: 70%;
+    }
+  
+    .coluna {
+      width: 50vw;
+      min-width: unset;
+    }
+  
+  }
+  
+  
+  /*Smartphone*/
+  
+  @media (max-width:425px) {
+   nav, article, .coluna {
+      width: 100%;
+      min-width: 320px;
+    }
+  
+  }

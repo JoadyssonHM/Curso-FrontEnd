@@ -1,0 +1,51 @@
+
+
+table {
+	border: 1px solid;
+	background: #eee7e7;
+	max-width: 500px;
+	min-width: 320px;
+	border-collapse: collapse;
+	
+}
+
+table tbody tr:hover {
+	background-color: #b9b5b5;
+}
+
+table th,
+table td {
+	border: 1px solid;
+	padding: 1rem;
+	font-size: 1.6rem;
+	text-align: right;
+	vertical-align: middle;
+}
+
+table tr td:first-child {
+	text-align: left;
+	font-weight: bold;
+}
+
+table th {
+	text-align: center;
+}
+
+.table-container {
+	padding: 2rem 1rem;
+}
+
+.table-container tfoot {
+	background: #9b9393;
+}
+
+.table-container tfoot td {
+	font-weight: bold;
+}
+
+footer {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 20px;
+	background-color: #b9b5b5;
+	text-align: center;
+}

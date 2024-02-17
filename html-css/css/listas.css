@@ -1,0 +1,52 @@
+
+header {
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    margin: 20px auto;
+    font-weight: bold;
+    font-size: 2.0rem;
+}
+
+h2 {
+    text-align: center;
+    margin: 15px;
+    font-size: 1.8rem;
+}
+
+
+
+li { 
+    font-size: 15px;
+}
+
+ol > li {
+    font-size: 15px;
+}
+
+.definidas {
+    font-size: 15px;
+    font-size: large;
+}
+
+dd {
+    font-size: 15px;
+}
+
+.fundo {
+    background-color: rgb(192, 192, 192);
+    margin: 15px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 320px){
+    
+    section {
+        
+        display: block;
+        columns: 2;
+    }
+}
