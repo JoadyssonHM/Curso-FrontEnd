@@ -30,3 +30,12 @@
     
   ## GitFlow
   Fluxo Git
+
+
+### Branchs
+São ramificações / versões paralelas
+
+- main / master (vai para a produção, quando o projeto é publicado)
+- develop
+- DOD Definitions of done: Critérios de aceite
+- versionamento 1.0.0
