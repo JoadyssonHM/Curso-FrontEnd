@@ -60,6 +60,11 @@ p {
    line-height: 1.4; 
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 ol {
     margin-left: 30px;
 }
@@ -127,10 +132,13 @@ footer p {
 footer small {
     font-size: 80%;
     display: block;
-} 
+}
+
+#tenho-interesse {
+    width: 100%;
+}
 
 .cognito {
     height: 370px !important;
     overflow: hidden !important;
-
 }
